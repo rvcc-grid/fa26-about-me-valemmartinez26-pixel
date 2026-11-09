@@ -1,0 +1,126 @@
+
+/* My Colombian Caribbean color palette */
+:root {
+    --light-blue: #E9F7F8;
+    --pastel-blue: #A7C9ED;
+    --ocean-blue: #176B91;
+    --sand-yellow: #F4CE75;
+    --coral: #E99478;
+    --dark-blue: #173D58;
+}
+
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: var(--ocean-blue);
+}
+
+/* Paragraphs */
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* Header styling */
+header {
+    background-color: var(--ocean-blue);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Header logo */
+header img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* Header title */
+header h1 {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Profile picture */
+main section img {
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Profile section */
+main section:first-child {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Profile name */
+main section:first-child div p:first-child {
+    font-family: 'Abril Fatface', serif;
+    font-size: 36px;
+    color: var(--ocean-blue);
+    margin-bottom: 5px;
+}
+
+/* Location */
+main section:first-child div p:last-child {
+    font-size: 18px;
+    color: var(--dark-blue);
+    margin-top: 0;
+}
+
+/* Personal goal section */
+main section:nth-child(2) {
+    background-color: white;
+    border-left: 6px solid var(--coral);
+    border-radius: 12px;
+    padding: 25px 30px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(23, 107, 145, 0.08);
+}
+
+/* Goal paragraph */
+main section:nth-child(2) p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--ocean-blue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+/* Footer text */
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
