@@ -124,3 +124,27 @@ footer p {
     font-size: 14px;
     margin: 0;
 }
+.hobbies {
+    padding: 30px;
+    margin: 30px 0;
+    background-color: #f8f5f2;
+    border-radius: 12px;
+}
+
+.hobbies h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-left: 4px solid #c78b9b;
+    border-radius: 5px;
+}
