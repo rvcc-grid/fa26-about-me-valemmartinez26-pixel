@@ -148,3 +148,54 @@ footer p {
     border-left: 4px solid #c78b9b;
     border-radius: 5px;
 }
+
+/* PHOTO GALLERY */
+
+.gallery {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery hr {
+    border: none;
+    border-top: 2px solid #d8a0ac;
+    margin-bottom: 30px;
+}
+
+.gallery figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.gallery figcaption {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #1c6b8c;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+    .gallery figure {
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+}
